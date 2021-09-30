@@ -4,6 +4,10 @@
   "author": "oleksandr.prytula",
   "private": true,
   "license": "MIT",
+  "engines": {
+    "node": ">=14.17",
+    "npm": ">=6.14"
+  },
   "scripts": {
     "start": "webpack serve -c ./webpack/dev.config.js",
     "build": "webpack -c ./webpack/dev.config.js",
